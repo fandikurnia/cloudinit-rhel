@@ -52,7 +52,7 @@ make rpm
 # deps already installed via pip (prettytable, oauth not available in EPEL5)
 
 # optional clean-up
-sudo yum remove bzr python-cheetah
+sudo yum remove bzr
 
 # If your build system is separate from your AMI image, be sure to:
 # 1) install the python packages shown above using pip (or yum)
