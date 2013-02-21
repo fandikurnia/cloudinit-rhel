@@ -28,7 +28,7 @@ yum install -y bzr rpm-build python-devel python-simplejson python-pip*rpm make 
 # Pull in python deps. Note non-default epel filename for pip
 # Please note, this list contains deps that should be installed on the target system
 # with pip since we're removing the dependency checks from the RPM below
-pip-python install --upgrade  virtualenv argparse boto requests paste prettytable oauth configobj pylint nose mocker pysaml
+pip-python install --upgrade  virtualenv argparse boto requests paste prettytable oauth configobj pylint nose mocker PyYAML
 
 # optional, use standard pip name
 ln -s /usr/bin/pip-python /usr/bin/pip
